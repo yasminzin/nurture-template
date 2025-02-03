@@ -1,6 +1,6 @@
 # Nurture Template 🌱🎓
 
-Nurture Template is a modern, interactive, and child-friendly web template designed for schools and educational platforms. Built with HTML5, CSS3, and JavaScript, this template is ideal for both online and offline learning environments, making education accessible and engaging for kids.
+Nurture Template is a modern, interactive, and child-friendly web template for an educational platform focused on children's learning.
 
 ## 🚀 Technologies Used
 * HTML5 – Semantic and well-structured content.
