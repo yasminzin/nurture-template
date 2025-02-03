@@ -691,6 +691,17 @@ header .circles i {
   width: 100%;
   position: absolute;
   left: 0%;
+}
+
+.about .about-content .headers {
+  opacity: 0;
+}
+
+.about .about-content .buttons {
+  opacity: 0;
+}
+
+.about .about-content .numbers {
   opacity: 0;
 }
 
@@ -1199,8 +1210,8 @@ footer .about-nurture {
     z-index: 1;
   }
   .icons section:hover {
-      background-color: #11dba8;
-      color: #ffffff;
+    background-color: #11dba8;
+    color: #ffffff;
   }
 }
 

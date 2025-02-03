@@ -10,7 +10,9 @@ const headerContentbutton = document.querySelector(".header-content button");
 const headerCircles = document.querySelector("header .circles");
 
 const aboutImage = document.querySelector(".about-image");
-const aboutUs = document.querySelector(".about-content");
+const headers = document.querySelector(".headers");
+const numbers = document.querySelector(".numbers");
+const buttons = document.querySelector(".buttons");
 
 const newsContent = document.querySelector(".news-content");
 
@@ -62,7 +64,6 @@ window.onload = function (e) {
   }, 1000);
 };
 
-
 // ==============================
 
 window.onscroll = function () {
@@ -85,8 +86,8 @@ window.onscroll = function () {
   if (scrollY > 500) {
     whatWeOffer.style.animation = "up2 0.8s forwards";
   }
-  if (scrollY > 2300) {
-    aboutUs.style.animation = "up 0.8s forwards";
+  if (scrollY > 2600) {
+    numbers.style.animation = "up 0.8s forwards";
     var newInterval = setInterval(() => {
       if (countOne == 4000) {
         clearInterval(newInterval);
@@ -117,7 +118,15 @@ window.onscroll = function () {
   }
   if (scrollY > 2400) {
     aboutImage.style.animation = "up 0.8s forwards";
+  }
+  if (scrollY > 2450) {
     greenBox.style.animation = "up 0.8s forwards";
+  }
+  if (scrollY > 2500) {
+    headers.style.animation = "up 0.8s forwards";
+  }
+  if (scrollY > 2700) {
+    buttons.style.animation = "up 0.8s forwards";
   }
   if (scrollY > 3100) {
     newsContent.style.animation = "up 0.8s forwards";
