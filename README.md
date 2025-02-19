@@ -1,4 +1,4 @@
-# Nurture Template 🌱🎓
+# Nurture Template 🌱
 
 Nurture Template is a modern, interactive, and child-friendly web template for an educational platform focused on children's learning.
 
